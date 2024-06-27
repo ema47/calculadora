@@ -1,0 +1,248 @@
+.pt-3{
+    padding-top: 0rem !important;
+}
+        .checkmark {
+            color: #ff6600;
+            /* Cambia el color de la marca de verificación */
+            font-size: 1.2em;
+            /* Cambia el tamaño de la marca de verificación */
+        }
+        .checkmark1 {
+            color: black;
+            /* Cambia el color de la marca de verificación */
+            font-size: 1.2em;
+            /* Cambia el tamaño de la marca de verificación */
+        }
+        .checkmark-custom2 {
+            color: #2e9fe1;
+            /* Cambia el color de la marca de verificación */
+            font-size: 1.2em;
+            /* Cambia el tamaño de la marca de verificación */
+        }
+
+        .page-header {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #FF5A00;
+            text-align: center;
+            /* Centra los elementos */
+            padding: 3px;
+            /* Añade espaciado alrededor del contenido si es necesario */
+        }
+
+        .centered-images {
+            position: relative;
+            /* Permite posicionar las imágenes dentro de este contenedor */
+        }
+
+        .img-top {
+            position: absolute;
+            /* Posiciona la imagen TRIO WIN1 */
+            top: 67px;
+            /* La coloca en la parte superior del contenedor padre */
+            left: 532px;
+            /* La coloca al inicio del contenedor padre */
+        }
+
+        .img-bottom {
+            position: absolute;
+            /* Posiciona la imagen TRIO WIN2 */
+            bottom: -127px;
+            /* La coloca en la parte inferior del contenedor padre */
+            right: 508px;
+        }
+
+        /* La coloca al final del contenedor padre */
+
+
+        .img-center {
+            /* Estilo para la imagen TRIO WIN que debe estar en el centro */
+            margin-top: -54px;
+            /* Ajusta este valor según sea necesario para superponerla sobre las imágenes TRIO WIN1 y TRIO WIN2 */
+        }
+
+        @media (min-width: 768px) {
+            .col-md-3-custom-1 {
+                flex: 0 0 auto;
+                width: 17%;
+            }
+
+            .col-md-3-custom-2 {
+                flex: 0 0 auto;
+                width: 33%;
+            }
+        }
+
+        .image-with-text {
+            position: relative;
+            overflow: hidden;
+            height: 300px;
+            /* Altura deseada para la imagen */
+            border: 1px solid #ff6600;
+            /* Borde alrededor de la imagen */
+            place-items: center;
+            /* Centra horizontal y verticalmente */
+
+        }
+        .image-with-text-custom1{
+            position: relative;
+            overflow: hidden;
+            height: 300px;
+            /* Altura deseada para la imagen */
+            border: 1px solid #2e9fe1;
+            /* Borde alrededor de la imagen */
+            place-items: center;
+            /* Centra horizontal y verticalmente */
+        }
+
+        .image-with-text img {
+            display: block;
+            max-width: 100%;
+            max-height: 100%;
+            margin: auto;
+            /* object-fit: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+        }
+        .overlay-custom1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Fondo semitransparente */
+            color: white;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 20px;
+            border: 2px solid #2e9fe1;
+            /* Color y grosor del borde */
+            
+
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Fondo semitransparente */
+            color: white;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 20px;
+            border: 2px solid #ff6600;
+            /* Color y grosor del borde */
+        }
+
+        .overlay .text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .table {
+            margin: auto;
+        }
+
+
+        .crossed-out {
+            text-decoration: line-through;
+            color: #666;
+            font-size: 1.0em;
+
+        }
+
+        .big-number {
+            font-size: 1.2em;
+            color: #ff6600;
+            font-weight: bold;
+        }
+
+        .big-number-custom1 {
+            font-size: 1em;
+            color: #321712;
+            font-weight: bold;
+        }
+
+        .small-text {
+            font-size: 0.8em;
+            color: #666;
+        }
+
+        .small-text1 {
+            font-size: 0.8em;
+            color: #321712;
+        }
+
+        /* Estilos personalizados */
+        .p-4 {
+            padding: 0.5rem !important;
+        }
+
+        .row {
+            --bs-gutter-x: 1.5rem;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            z-index: 100;
+            height: 100%;
+            padding-top: 1rem;
+            border-right: 1px solid #C1B9B4;
+            background-color: #DFDAD9;
+        }
+
+        .bg-light {
+            background-color: #DFDAD9 !important;
+        }
+
+        .nav-link {
+            padding: 0.5rem 1rem;
+            color: #333;
+        }
+
+        .nav-link.active {
+            font-weight: 600;
+            color: #0062cc;
+            background-color: #C1B9B4;
+            border-left: 3px solid #007bff;
+            padding-left: calc(1rem - 3px);
+        }
+
+        .nav-item>.nav-link {
+            font-size: 16px;
+            /* Tamaño de fuente para los elementos de nivel superior */
+        }
+
+        .nav-item {
+            padding-left: 0.5rem;
+            /* Ajuste de indentación para submenús */
+        }
+
+        .nav-item .nav-link.small {
+            font-size: 13px;
+            /* Tamaño de fuente para los elementos de submenús */
+            padding-left: 1.5rem;
+        }
+
+        .nav-item .nav-link.fw-bold {
+            font-size: 15px;
+        }
+
+        .collapse.list-unstyled {
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .collapse.list-unstyled>li {
+            border-bottom: 1px solid #dee2e6;
+            /* Borde inferior entre elementos */
+        }
